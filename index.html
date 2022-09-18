@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renato</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="nav">
+        <h2 class="sub">Developed By Renato Andrade</h2>
+        <a class="menu" href="">Quem sou </a>
+        <a class="menu" href="">Projetos </a>
+        <a class="menu" href="">Sobre</a>
+        <div class="logo"><img src="./foto.jpg" alt="renato"></div>
+        <div class="viewport">
+            <p class="name-view">Renato Oliveira Andrade</p>
+            <p>26 anos</p>
+            <p>Rio Verde-GO</p>
+            <p>HTML/CSS/JS</p>
+            <img src="./dev-img.png" alt="dev-img">
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Calculadora de Calorias</h2>
+        <p><strong>Cálculo de TMB utilizando o método de Haris Benedict</strong></p>
+
+            <P>Selecione o Sexo:</P>
+        <div class="sexo">
+            <input class="sx" type="radio" name="sexo" id="homem" >Homem
+            <input class="sx" type="radio" name="sexo" id="mulher" >Mulher
+        </div>
+
+        <p>Digite a Idade (em anos):</p>
+        <input type="number" name="idade" id="idade" >      
+        
+        <p>Digite a Altura (Em cm):</p>
+        <input type="number" name="altura" id="altura">   
+        
+        <p>Digite o Peso (Em kgs): </p>
+        <input type="number" name="peso" id="peso">    
+        
+        <button onclick="calcular()" >Calcular</button>
+        <button onclick="reset()" >Zerar</button>
+
+
+        <div class="resultado" id="resultado"></div>
+        
+
+
+
+    </div>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
